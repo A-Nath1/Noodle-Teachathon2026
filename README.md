@@ -157,7 +157,7 @@ Open a set to reach everything you can do with it. From top to bottom:
 - **Teach Noodly** ([section 7](#7-teach-noodly)).
 - **Instant Ramen** and **Noodle Showdown**.
 - **Annotate with classmates** (a lecture room, when cloud sync is on).
-- **Cheat sheet** (only for accounts that have it, see [section 12](#12-cheat-sheets-and-anki-export)).
+- **Cheat sheet** (one new sheet a day, see [section 12](#12-cheat-sheets-and-anki-export)).
 - **Annotated slides** (for PDF and PowerPoint sets).
 - **Textbook and lecture** to add or change sources.
 - **Take your cards to Anki**.
@@ -218,9 +218,10 @@ These are the numbers you see in the app, which already include the **double XP*
 | Jeopardy | 8, 12 or 16 by row, minus 4 for each hint or analogy, doubled on the hidden tile |
 | Fusion | 24 with no help, less for each hint or analogy |
 | Teach Noodly | Up to 70 (see [section 7](#7-teach-noodly)) |
+| Annotated slides | 2 for each slide annotated for the first time, up to 100 for one run (see [section 10](#10-annotated-slides)) |
 | Showdown | 8 per right answer, plus placement (see [section 13](#13-showdown-live-quizzes)) |
 
-Teach Noodly and Showdown are not doubled.
+Teach Noodly, annotated slides and Showdown are not doubled.
 
 ### Where you see the answer's source
 
@@ -306,6 +307,7 @@ Notes:
 - Up to 60 slides are shown.
 - Each point is tied to an exact phrase on the slide with an ink loop around it, and a point that comes from the textbook or lecture says so.
 - Slides that are not study content are left alone.
+- Annotating earns **2 XP for each slide annotated for the first time**, up to 100 XP for one run. A slide that already has notes earns nothing again, so annotating a deck twice does not pay twice.
 - PowerPoint slides are redrawn simply: text and pictures, not themes, charts or effects.
 - Annotations are saved on this device.
 
@@ -338,7 +340,7 @@ A dense one or two page exam sheet in LaTeX and PDF, made only from your slides 
 
 Admin and blank slides are left out, and the page tells you how many. The sheet only uses what is in your material, so a short course may not fill the page.
 
-> The **Cheat sheet** panel on a set page only appears for accounts that have access to it.
+> The **Cheat sheet** panel on a set page is open to everyone. You can make one new cheat sheet a day, and it keeps going in the background if you leave the page.
 
 ### Anki export
 
@@ -528,13 +530,18 @@ Some epic and legendary items also ask for an achievement, such as a 14-day stre
 
 12 sound packs that change the effects (tap, correct, wrong, flip, combo, level up). The sounds Noodle has always had are free. Preview a pack, buy it, then press **Use it**.
 
+### Themes
+
+23 themes that restyle the whole app: the buttons, cards, top bar and phone tab bar, the colours, the corners and the typeface. Some change colour only (Matcha, Blush, Lavender, Coral reef). Others change the shape too: Cloud and Bubble are soft and round, Terminal and Blueprint are monospace and square, Arcade is chunky, Old library is all serif, Neon nights and Ember glow, Frosted glass, Aurora and Holographic have see-through cards and a coloured top bar, and Graphite keeps everything grey except right and wrong answers. **High contrast** is black and white with heavy outlines. Classic Noodle, the look Noodle has always had, is free.
+
+- Every theme has a night and a day version, so the **Light or dark** switch in the header and Settings still works.
+- Each card shows a live sample. **Try it on the app** applies a theme to everything until you press **Stop trying** or leave the page. Nothing is kept until you buy or use it.
+- Buy a theme, then press **Use it**. A theme you own is used on this device only, like wallpapers and sounds.
+- The Noodle wordmark keeps its own typeface in every theme.
+
 ### My bowl
 
 Toppings and sharing (see above).
-
-### Redeem a code
-
-If you have a code, enter it in **Redeem a code** on the Customise page. Each code gives you 5 random free avatar items and 5 random wallpapers, and tells you if you already own everything it could give. You need to be signed in with Google.
 
 ---
 
@@ -560,12 +567,13 @@ Open **Settings**. Everything saves automatically.
 | **Username** | Your name on your bowl and leaderboards. |
 | **Daily goal** | 30, 50, 100 or 150 XP. |
 | **Interests** | Up to three, used for Still Tangled analogies. |
-| **Theme** | **Tokyo night** (default) or **Day**. |
+| **Light or dark** | **Night** (default) or **Day**. This works with whatever store theme you use. Your store theme is chosen on the Themes page. |
 | **Sound effects** | On or off. A mute shortcut is in the header too. |
 | **Animations** | Use device setting, on, or off. |
 | **Dyslexia-friendly reading** | Switches the whole app to the OpenDyslexic typeface with wider letter and word spacing, taller lines and no italics. The font downloads the first time you turn it on. |
 | **Wallpaper** | Pick from the wallpapers you own. **See the whole wallpaper** hides the page so you can look at it. **Buy more wallpapers with XP** goes to the shop. |
 | **Account** | Save progress with Google, sign in, sign out. |
+| **Redeem a code** | At the very bottom of the page. Each code gives you 5 random free avatar items and 5 random wallpapers, and tells you if you already own everything it could give. You need to be signed in with Google. |
 
 ### Header shortcuts
 
@@ -620,7 +628,7 @@ Noodle follows your device's reduced-motion setting by default. On some Windows 
 | Thing | Limit |
 |---|---|
 | Notes needed | At least 50 characters |
-| Notes used by games | First 60,000 characters (cheat sheets read all) |
+| Notes used by games | Up to 60,000 characters are kept, and a game reads 16,000 of them, sampled evenly from start to end so a long lecture is covered throughout (cheat sheets read all) |
 | Uploaded file | 100 MB, up to 1,000 pages or slides |
 | Text files and transcripts | 5 MB |
 | Annotated slides shown | First 60 |
@@ -631,6 +639,40 @@ Noodle follows your device's reduced-motion setting by default. On some Windows 
 | Room notes | 500 characters |
 | Study groups | Run 5, join 10, 100 members each |
 | AI requests | About 20 per 10 minutes, with more for Teach Noodly (40) and cheat sheets (70). If you hit it, wait a few minutes. |
+| AI allowance | £10 of AI per account each month, starting again on the 1st, and at most 300 AI requests a day |
+| Cheat sheets | One new cheat sheet a day |
+
+### What each feature costs
+
+Everything that uses the AI comes out of your monthly allowance of £10. This table shows what each feature costs, measured by running every one on a real 57 slide lecture deck (about 27,600 characters of text: "REST APIs, Exception Handling, Logging, Configuration, Actuator and Docker"). Costs are in pence at OpenAI's list prices, and the real bill can be a little lower because repeated reading of the same notes is billed at a cheaper rate.
+
+| Feature | AI requests | Tokens in / out | Cost | Uses in £10 |
+|---|---|---|---|---|
+| Flashcards (10 cards) | 1 | 3,543 / 632 | 0.11p | about 9,000 |
+| Layered Cards (8 cards) | 1 | 3,556 / 836 | 0.13p | about 7,700 |
+| Fill in the Gaps | 1 | 3,550 / 452 | 0.09p | about 10,600 |
+| Match the Strands (6 pairs) | 1 | 3,519 / 107 | 0.06p | about 16,100 |
+| Timed Quiz (10 questions) | 1 | 3,578 / 1,025 | 0.15p | about 6,800 |
+| Speed Slurp (20 questions) | 1 | 3,571 / 1,043 | 0.15p | about 6,700 |
+| Target Practice (20 questions) | 1 | 3,610 / 1,110 | 0.16p | about 6,400 |
+| Instant Ramen (20 questions) | 1 | 3,589 / 1,166 | 0.16p | about 6,200 |
+| Error Check | 1 | 3,589 / 471 | 0.10p | about 10,300 |
+| Summary | 1 | 3,543 / 847 | 0.13p | about 7,600 |
+| Untangle Canvas | 1 | 3,588 / 480 | 0.10p | about 10,200 |
+| Noodle Radio | 1 | 3,605 / 346 | 0.09p | about 11,800 |
+| Jeopardy | 1 | 3,740 / 328 | 0.09p | about 11,600 |
+| Fusion (10 questions) | 1 | 3,771 / 2,145 | 0.25p | about 3,900 |
+| Still Tangled (one metaphor set) | 1 | 323 / 312 | 0.03p | about 29,000 |
+| Teach Noodly (each reply) | 1 | 5,657 / 90 | 0.46p | about 2,200 replies |
+| Annotated slides (54 of the 57 slides) | 5 | 8,577 / 5,518 | 0.64p | about 1,560 decks |
+| Cheat sheet (the whole deck) | 2 | 7,203 / 5,797 | 7.8p | about 128 sheets, one a day |
+
+- **The 14 games and activities average about 0.13p each**, so one study session of several games costs a fraction of a penny.
+- **Annotated slides** leaves out obvious admin slides (3 of the 57 here) before any AI is used, and sends the rest 12 at a time.
+- **Teach Noodly** costs more per reply because the AI reads your notes again every time, but a whole 5 reply session is still about 2.3p.
+- **Cheat sheets** use a stronger model so they are accurate, which is why they cost the most. You can make one a day.
+- A bigger deck costs more in proportion for annotated slides and cheat sheets (a 1000 slide cheat sheet is roughly £1.40), but games always read at most 16,000 characters, so they cost about the same for any course.
+- If you reach your monthly allowance, new AI requests are switched off until the 1st. What you already made still works.
 
 ---
 
@@ -655,7 +697,7 @@ Cloud sync is off, so they can only connect tabs on this device.
 They need a Google account. Sign in from Settings.
 
 **I cannot redeem a code.**
-Codes need a Google account. Sign in first.
+Codes need a Google account. Sign in under **Account** in Settings first, then use **Redeem a code** at the bottom of that page.
 
 **Everything looks frozen.**
 Set **Animations** to **On** in Settings (see [section 19](#19-settings-and-accessibility)).
@@ -667,7 +709,7 @@ It may have been made with **Delete when I leave**. Those are removed after the 
 Open it and press **Delete set**. This also deletes everything cooked from it and cannot be undone.
 
 **There is no cheat sheet button.**
-The cheat sheet panel only appears for accounts that have access to it.
+Everyone can make one new cheat sheet a day. Once one starts it carries on in the background while you use the rest of Noodle (keep the tab open), and the panel on the set page shows how far it has got and opens it when it is ready. If you close the tab, what was read so far is saved, and **Carry on** picks up from there without using another day's sheet.
 
 ---
 
