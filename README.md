@@ -1,4 +1,6 @@
 # Noodle-Teachathon2026 User Guide
+
+# 140 Signed Up Users!
 Notes, unravelled.
 
 Noodle turns your lecture notes into games. You add notes, slides, a textbook or a lecture transcript, and Noodle cooks them into flashcards, quizzes, a mini podcast, a mind-map puzzle and more. Everything you play earns XP, which fills a bowl of ramen, builds a daily streak and unlocks things to customise.
