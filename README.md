@@ -20,7 +20,7 @@ This guide is for people using Noodle. If you are building or running it, read [
 9. [Textbook, lecture and references](#9-textbook-lecture-and-references)
 10. [Annotated slides](#10-annotated-slides)
 11. [Fusion: mixing topics](#11-fusion-mixing-topics)
-12. [Cheat sheets and Anki export](#12-cheat-sheets-and-anki-export)
+12. [Cheat sheets, practice papers and Anki export](#12-cheat-sheets-practice-papers-and-anki-export)
 13. [Showdown: live quizzes](#13-showdown-live-quizzes)
 14. [Lecture rooms: annotate with classmates](#14-lecture-rooms)
 15. [Friends and study groups](#15-friends-and-study-groups)
@@ -83,7 +83,7 @@ A **study set** is a title, your notes and an optional focus. Each set can hold 
 
 Things to know:
 
-- Files are read in your browser. PDFs need selectable text. Scanned pages are not read.
+- Files are read in your browser. PDFs need selectable text, unless you tick **Read pictures and diagrams too** before you upload (see [Pictures and diagrams](#pictures-and-diagrams)).
 - You need at least 50 characters.
 - Games use the first 60,000 characters. Cheat sheets read everything.
 - Slides that are about running the course (agenda, deadlines, contacts, reading lists, "any questions?") are skipped automatically, so a quiz never asks who the lecturer is. The status line under your file says how many were skipped.
@@ -92,6 +92,17 @@ Things to know:
 ### Adding more later
 
 Open the set and use **Add extra notes & material**. Paste text, or choose one or more `.txt`, `.md`, `.csv`, `.rtf`, `.pdf` or `.pptx` files, then press **Add to study set**. Your original notes stay, and the new text is added after them. A set can hold 60,000 characters in all, and the panel shows how close you are. Activities you already cooked, cheat sheets and lecture rooms stay as they were, so press **Cook a fresh batch** in an activity to include the new material.
+
+### Pictures and diagrams
+
+Tick **Read pictures and diagrams too** beside **Upload file**, before you choose the file, and Noodle reads the pictures as well as the text. It works on:
+
+- **Scanned PDFs and photos of pages** (PNG, JPEG or WebP), which have no text of their own. Noodle reads the writing off them, handwriting included. Words it cannot make out are marked [unclear].
+- **Diagrams, graphs, tables and figures inside a PDF.** Noodle writes each one into the page's text in square brackets, like `[Figure: a graph of speed against time ...]`, with its labels, axes, values and what connects to what. Games, summaries, cheat sheets and practice papers then know about it.
+
+Each page is drawn in your browser and sent to the AI as a picture. It is free: it runs on a free University-hosted model, so it does not use your AI allowance, for up to 30 pages of each file. Pages after the 30th keep their text only. It is off by default, on the practice paper page as well as for new study sets, so no picture is read unless you tick it. Tick it before you add the files. A PowerPoint's pictures are not read, so save it as a PDF first if the pictures matter.
+
+Noodle can misread a diagram, such as which way an arrow points or a value on a crowded graph, so check anything that matters against the original. If a page cannot be read, it keeps whatever text it had, and a line under the file says how many pages were read and how many were not. If your allowance runs out partway, the pages already read are kept.
 
 ### The other fields
 
@@ -159,10 +170,11 @@ Open a set to reach everything you can do with it. From top to bottom:
 - **Show notes** opens a viewer for your file, or the text Noodle read.
 - **Add extra notes & material** adds more text or files to the set without replacing your original notes (see [Adding more later](#adding-more-later)).
 - **Teach Noodly** ([section 7](#7-teach-noodly)).
-- **Instant Ramen** and **Noodle Showdown**.
+- **Instant Ramen**.
 - **Annotate with classmates** (a lecture room, when cloud sync is on).
 - **Personal tutor** ([section 7](#personal-tutor)).
-- **Cheat sheet** (see [section 12](#12-cheat-sheets-and-anki-export)).
+- **Cheat sheet** (see [section 12](#12-cheat-sheets-practice-papers-and-anki-export)).
+- **Practice paper** (see [Practice papers](#practice-papers)).
 - **Annotated slides** (for PDF and PowerPoint sets).
 - **Textbook and lecture** to add or change sources.
 - **Take your cards to Anki**.
@@ -358,7 +370,7 @@ Fusion questions list the topics they connect. If you are stuck, **hints come in
 
 ---
 
-## 12. Cheat sheets and Anki export
+## 12. Cheat sheets, practice papers and Anki export
 
 ### Cheat sheet maker
 
@@ -373,6 +385,46 @@ A dense one or two page exam sheet in LaTeX and PDF, made only from your slides 
 Admin and blank slides are left out, and the page tells you how many. The sheet only uses what is in your material, so a short course may not fill the page.
 
 > The **Cheat sheet** panel on a set page is open to everyone. It keeps going in the background if you leave the page. There is no daily limit. If you have already made a sheet in the last 24 hours, Noodle asks before starting another, and tells you roughly what it will use and how much allowance you have left, since each sheet takes far more than a game does. Making it again from scratch asks the same way.
+
+### Practice papers
+
+Noodle writes you a brand new practice paper from your notes, with a mark scheme to check it against. Give it your past papers and it copies their format. Give it the course specification and it follows what is covered and how it is marked. It comes as LaTeX and as a PDF.
+
+1. Open a set and press **Make a practice paper**.
+2. If your past papers are scans or rely on diagrams, tick **Read pictures and diagrams too** first (it is off to start with), so Noodle reads the pictures as well as the text. Then press **Add documents** and pick one or more PDF, PowerPoint, text or picture files at once, or press **Paste text instead**. You can add up to 10. A file Noodle cannot read is named in a message and the rest are still added.
+3. Under each document, say what it is: **A past paper**, **The course specification** or **Notes**. New documents start as past papers, so change the label if you add something else.
+4. Choose **What subject is it?**: Maths, Physics, Chemistry, Biology, Computer science, Economics & business, History/politics/philosophy/literature, Law, Psychology & social science or Medicine & health. Each has its own usual kind of paper, its own way of asking questions (for example linked "show that" problems in Maths, a case to advise on in Law, a clinical vignette in Medicine) and its own style of mark scheme. Leave it on **Not sure** and Noodle works the style out from your notes. A past paper or specification you add always comes before the subject's usual style.
+5. Choose **How hard should it be?**: about the same as your past papers, a bit harder or a bit easier. You can also type **Anything to focus on?**, such as "mostly chapters 3 and 4".
+6. Press **Make my practice paper**. Noodle plans the paper, writes its questions, then writes the mark scheme, and a picture shows how much of the paper is made: a block for every question, which fills as it is written and gets a tick once its mark scheme is done. A paper usually takes 30 to 60 seconds, and you can press **Cancel** while you wait.
+7. The paper and its **Mark scheme** both appear on the page, one under the other. Each has its own **Download paper PDF** or **Download mark scheme PDF**, **Download .tex** and **Copy LaTeX** buttons, so you can take both.
+
+**Subjects with Paper 1 and Paper 2.** If your past papers show that the exam is sat as more than one paper, Noodle writes each of them in the layout of that paper, with its own time, sections, marks and mark scheme, one after another. The second paper is told what the first asked, so it does not repeat it. If something goes wrong partway, the papers already written are kept and a **Write paper 2** button carries on from there.
+
+What Noodle takes from each kind of document:
+
+| You add | Noodle uses it for |
+|---|---|
+| **A past paper** | The format: the sections, how many questions, what kinds (multiple choice, short answer, calculations, essays), how many marks each is worth, the time allowed and how the questions are worded. It never copies a question or takes a fact from a past paper. More than one helps Noodle see what stays the same from year to year. |
+| **The course specification** | What is in scope, how much each topic matters, which skills are assessed, and how the exam is set up (time and marks), when there is no past paper to copy. |
+| **Notes** | More to ask about. Slides, a textbook extract or a lecture summary are used for questions, on top of the set's own notes. |
+
+Every question has to be answerable from your set's notes and any **Notes** documents, so a topic your past papers or specification cover that those do not is left out. You need at least one document. If none of them is a past paper or the specification, Noodle writes the layout that is usual for the subject you chose, or an ordinary exam layout if you left it on **Not sure**.
+
+**How demanding it is.** Noodle aims for the demand of a real paper, not only its topics, wherever the subject allows it. Longer questions are in linked parts, where a later part needs the result of an earlier one, and a result may be given to "show that" so the next part can still use it. Questions do not hand you exactly the numbers one formula needs: you work out intermediate quantities, choose the method and combine ideas from different topics. There are derivations and "show that" or "prove that" questions where the subject has them. The paper cannot draw, so a set-up such as a ramp, a beam or a spring is described fully in words (lengths, angles, masses, what is attached to what) so that you could draw it yourself. Early questions are short and direct, and the last ones are the longest and hardest.
+
+The question numbers, part letters, marks, time and total marks are all printed by Noodle in one layout, so every question looks the same and the numbers are never repeated. The total on the front is added up from the questions, so it always agrees with them. When a section lets candidates choose ("answer ONE question"), only the questions they have to answer count. If the AI aimed for a different total from what its questions add up to, the page says so. If any question follows one of your past paper questions word for word, the page tells you, and **Make a new paper** writes a different one. Each mark scheme says where the marks are earned. It is written in a separate step, on a stronger model than the one that wrote the questions. It is still written by AI and could have mistakes, so the mark scheme says so at the top, in the PDF and the `.tex` file too, and you should check any answer you are unsure of against your notes.
+
+The `.tex` file is a complete document: compile it with `pdflatex`, or paste it into Overleaf. The PDF is drawn from the same layout, so it looks the same.
+
+Things to know:
+
+- **Diagrams in your past papers are taken into account** when **Read pictures and diagrams too** is ticked: the new paper sets questions of the same kind. It cannot draw pictures, so each question that needs a figure gives the labels, values and layout in words or as a table instead.
+- A PowerPoint's pictures are not read. Save it as a PDF first.
+- The AI sometimes writes LaTeX with faults, such as every backslash doubled, a brace left open, or `\(` `\)` and `$$` instead of dollar signs. Noodle mends these before the paper is shown or written to the `.tex` file, so the formulas come out as they should. A formula it cannot mend, such as one that uses a command that does not exist, is shown as plain text instead of breaking the page or the file. If a formula arrives with no dollar signs at all, or with a command that lost its backslash (like "frac{1}{2}" for a fraction), Noodle cannot tell by rule what is maths, so it sends just those pieces of text back to the AI to be typeset, changing nothing else. If that fails or there is too little time, the text is kept as it was.
+- Your documents and the paper you made stay on this device. Their text goes to the AI only when you press **Make my practice paper**.
+- The subject you choose only decides the fallback style. A past paper or specification you add always comes first, so a Maths paper made from your own past paper follows that paper's layout.
+- A set keeps one paper. Making another replaces it, and Noodle asks first.
+- Noodle writes papers of its own. They are good practice, but they are not your real exam, so check any worked answers you are unsure of against your notes.
 
 ### Anki export
 
@@ -390,7 +442,7 @@ A Kahoot-style live quiz built from one of your sets. Open **Showdown** in the n
 
 ### Hosting
 
-1. Press **Host a game**, then choose one of your sets. (From a set page, **Host a Showdown** does this for you.)
+1. Press **Host a game**, then choose one of your sets.
 2. Choose how it runs:
    - **Central host**: you run the game from a big screen and everyone answers on their phone. You press the button for the next question. You do not play.
    - **No central host**: everyone plays on their own device, you included. The leaderboard shows after each question and the next one starts by itself.
@@ -663,9 +715,11 @@ Noodle follows your device's reduced-motion setting by default. On some Windows 
 | Sets, XP, streaks, profile | Your account in the cloud if sync is on, otherwise this browser |
 | Uploaded PDF or PowerPoint, annotations, textbook, transcript | This device only |
 | Saved copies of lecture rooms | This device only |
+| Documents added for practice papers, and the paper made from them | This device only |
 | Theme, wallpaper, sound and animation choices | This browser |
 | Downloaded voice model | Browser cache (about 90 MB, once) |
 
+- Pictures of your pages are sent to the AI only when you tick **Read pictures and diagrams too** for that upload, and are not kept anywhere once they have been read.
 - Your notes are sent to the AI only to cook an activity, annotate slides, explain an analogy, make a cheat sheet or play Noodly. The AI is told to use only what you gave it.
 - Uploads are cleaned of hidden or control characters before anything reads them.
 - Leaderboards show only a display name, XP and streak.
@@ -686,16 +740,18 @@ Noodle follows your device's reduced-motion setting by default. On some Windows 
 | Items per activity | Flashcards 3 to 25, quiz questions 3 to 30, match pairs 4 to 12 |
 | Showdown questions | 10 to 30 |
 | Fusion | 2 to 4 sets of the same subject |
+| Reading pictures | Up to 30 pages of each PDF, 3 pages to a request, and photos of up to a few MB each. PowerPoint pictures are not read |
+| Practice papers | Up to 10 documents (past papers, the specification, notes) per set. A paper has at most 36 questions and 90 marks, so a longer past paper gives a shorter paper of the same kind. Each paper and its mark scheme use at most 15p |
 | Teach Noodly | 5 explanations |
 | Room notes | 500 characters |
 | Study groups | Run 5, join 10, 100 members each |
-| AI requests | About 20 per 10 minutes, with more for Teach Noodly (40), personal tutor hints (40) and cheat sheets (70). If you hit it, wait a few minutes. |
+| AI requests | About 20 per 10 minutes, with more for Teach Noodly (40), personal tutor hints (40), reading pictures (40) and cheat sheets (70). If you hit it, wait a few minutes. |
 | AI allowance | Guests: 50p total, with no monthly reset. Signed-in accounts: £5 each month, starting again on the 1st. At most 300 AI requests a day. |
 | Cheat sheets | No limit, but another one within 24 hours asks first and uses your allowance |
 
 ### What each feature costs
 
-Everything that uses AI comes out of the 50p lifetime guest trial or the £5 monthly signed-in allowance. Guest trials are pooled server-side by network, so incognito, clearing cookies or making another guest on the same network does not create another allowance. People on shared Wi-Fi share this guest trial; signing in gives each person their own allowance. A changed network or VPN cannot reliably be identified as the same anonymous person. The home page shows how much you have left. This table shows what each feature costs, measured by running every one on a real 57 slide lecture deck (about 27,600 characters of text: "REST APIs, Exception Handling, Logging, Configuration, Actuator and Docker"). Costs are in pence at OpenAI's list prices, and what comes off your allowance can be a little lower, because when the AI re-reads the start of the same notes (for example cooking several games from one set), that repeated part is billed at a cheaper rate and Noodle counts it that way.
+Everything that uses AI comes out of the 50p lifetime guest trial or the £5 monthly signed-in allowance, except reading pictures, which runs on a free University-hosted model and takes nothing from it. Guest trials are pooled server-side by network, so incognito, clearing cookies or making another guest on the same network does not create another allowance. People on shared Wi-Fi share this guest trial; signing in gives each person their own allowance. A changed network or VPN cannot reliably be identified as the same anonymous person. The home page shows how much you have left. This table shows what each feature costs, measured by running every one on a real 57 slide lecture deck (about 27,600 characters of text: "REST APIs, Exception Handling, Logging, Configuration, Actuator and Docker"). Costs are in pence at OpenAI's list prices, and what comes off your allowance can be a little lower, because when the AI re-reads the start of the same notes (for example cooking several games from one set), that repeated part is billed at a cheaper rate and Noodle counts it that way.
 
 | Feature | AI requests | Tokens in / out | Cost | Uses in £5 |
 |---|---|---|---|---|
@@ -717,11 +773,15 @@ Everything that uses AI comes out of the 50p lifetime guest trial or the £5 mon
 | Teach Noodly (each reply) | 1 | 5,657 / 90 | 0.46p | about 1,100 replies |
 | Annotated slides (54 of the 57 slides) | 5 | 8,577 / 5,518 | 0.64p | about 780 decks |
 | Cheat sheet (the whole deck) | 2 | 7,203 / 5,797 | 7.8p | about 64 sheets |
+| Practice paper with mark scheme | about 7 for each paper | about 25,000 / 3,200 | about 5p for each paper (never more than 15p), so about 10p for a Paper 1 and Paper 2 | about 100 papers |
+| Reading pictures, per page | 1 for every 3 pages | about 750 / 250 | free | no limit from the allowance |
 
 - **The 14 games and activities average about 0.13p each**, so one study session of several games costs a fraction of a penny.
 - **Annotated slides** leaves out obvious admin slides (3 of the 57 here) before any AI is used, and sends the rest 12 at a time.
 - **Teach Noodly** costs more per reply because the AI reads your notes again every time, but a whole 5 reply session is still about 2.3p.
 - **Cheat sheets** use a stronger model so they are accurate, which is why they cost the most. If you make another within 24 hours, Noodle tells you roughly what it will cost before it starts.
+- **Reading pictures** is free, since it runs on a University-hosted model that costs nothing to run. It is still limited to 40 requests every 10 minutes (3 pages to a request), so a long PDF takes a little while.
+- **A practice paper** was measured on a 60 mark, 9 question paper made from two long past papers and about 11,000 characters of notes. Planning it cost 0.7p and writing its questions 1.2p, both on `gpt-5.6-luna`. Its mark scheme is written on the strongest model, `gpt-5.6-terra`, because a wrong answer in a mark scheme teaches the wrong thing, and that cost 3.3p, 5.2p in all. It reads a fixed amount of your documents and notes, so it costs about the same for any course. Noodle adds up what each step actually cost, and will not start a step that could take the paper past 15p, so the page can stop with a message rather than spend more. When some maths needs typesetting (see Practice papers), that one extra small request on the cheaper model costs a fraction of a penny and is counted in the same total.
 - A bigger deck costs more in proportion for annotated slides and cheat sheets (a 1000 slide cheat sheet is roughly £1.40), but games always read at most 16,000 characters, so they cost about the same for any course.
 - Guests who use their 50p trial must sign in with Google for the default free allowance. The guest trial never resets, including after an upgrade or account deletion. If allowance checking is unavailable, new AI requests pause until it recovers.
 - Guests on one network generate one request at a time. If another guest request is running, wait and retry. Usage is recorded when an AI response finishes, so the last request can take the total slightly over the allowance before further requests stop.
@@ -735,7 +795,7 @@ Everything that uses AI comes out of the 50p lifetime guest trial or the £5 mon
 The free AI is rate limited and can cut long replies short. Press **Try again**, or cook a smaller set (fewer cards or questions). Shorter notes help too.
 
 **My PDF says it has no text.**
-Scanned PDFs have images of text, not text. Use a PDF with selectable text or paste the notes.
+Scanned PDFs have images of text, not text. Tick **Read pictures and diagrams too** before you upload the file and Noodle reads the pages as pictures, or use a PDF with selectable text, or paste the notes.
 
 **The textbook or transcript is not showing references.**
 Check that it was added (the set page's **Textbook and lecture** section shows its name). References only appear when at least two keywords match, so a loosely related item may have none. If you set **Pages to use**, only those pages are searched.
@@ -781,4 +841,3 @@ Everyone can make cheat sheets. Once one starts it carries on in the background 
 | **Study set** | Your notes plus everything cooked from them. |
 | **Subject** | The course a set belongs to, used for grouping and Fusion. |
 | **Tokyo Night** | The default dark theme. |
-
