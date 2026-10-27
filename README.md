@@ -10,7 +10,7 @@ This guide is for people using Noodle. If you are building or running it, read [
 ## Contents
 
 1. [Quick start](#1-quick-start)
-2. [Accounts: guest or Google](#2-accounts-guest-or-google)
+2. [Signing in with Google](#2-signing-in-with-google)
 3. [Making a study set](#3-making-a-study-set)
 4. [Your home page and subjects](#4-your-home-page-and-subjects)
 5. [The study set page](#5-the-study-set-page)
@@ -38,7 +38,7 @@ This guide is for people using Noodle. If you are building or running it, read [
 
 ## 1. Quick start
 
-1. Open Noodle and press **Start studying** on the landing page, or **Try sample notes** to jump straight in. You arrive as a guest. No sign-up is needed.
+1. Open Noodle and press **Start studying** on the landing page, or **Try sample notes** to jump straight in. Choose **Continue as guest** or **Continue with Google**.
 2. Press **New study set**.
 3. Paste notes into the box, or press **Upload file** and pick a PDF, PowerPoint or text file.
 4. Under **Start with**, pick an activity such as **Flashcards**, then press **Cook it**.
@@ -48,32 +48,27 @@ Next time, open the set from your home page and pick any other activity. Noodle 
 
 ---
 
-## 2. Accounts: guest or Google
+## 2. Signing in with Google
 
-You can use almost everything as a guest. Signing in with Google keeps your progress safe and unlocks the social features.
-
-| | Guest | Signed in with Google |
-|---|---|---|
-| Make sets, play every activity | Yes | Yes |
-| Progress saved | In this browser (or an anonymous cloud account when sync is on) | In your account, on any device |
-| Showdown and lecture rooms | Yes, when cloud sync is on | Yes |
-| Friends and study groups | No | Yes |
-| Redeem a code | No | Yes |
-| Free sign-up gift | Offered once | Received |
+Choose **Continue as guest** to start without Google, with a 50p lifetime AI trial shared across your network. Choose **Continue with Google** for your own £5 monthly AI allowance, and from then on your sets, XP, streak and bowl are saved to that account and follow you to every device. When cloud sync is off (a local copy of the app with no Supabase), there is nothing to sign in to and progress stays in this browser.
 
 ### The sign-up gift
 
-The first time you reach the home page as a guest, a box offers **Sign up with Google, get a free gift**: **10 random avatar items and 10 random wallpapers**, plus your progress kept on every device. Choose **Maybe later** to dismiss it. When you come back from Google, a **Welcome gift unlocked** box lists what you got, with **Take a look** to open Customise.
+When you sign up, a **Welcome gift unlocked** box lists what you got: **10 random avatar items and 10 random wallpapers**, with **Take a look** to open Customise.
 
-### Keeping your progress
+### Keeping your guest progress
 
-- **To keep your guest progress:** open **Settings**, scroll to **Account** and press **Save progress with Google**. This links Google to the guest account you already have, so nothing is lost.
-- **To use an account you already had:** press **Sign in with Google**. This opens that account. It does not merge your guest progress into it.
-- **To leave:** press **Sign out**.
+Your guest session is remembered in this browser. Returning guests can continue studying without Google. In Settings, add your Google account to keep your guest sets and XP and unlock the signed-in allowance. If that Google account already has a Noodle account, choose **I already have a Noodle account** instead. That opens it, and it does not merge the guest progress into it.
+
+### Questions
+
+The home page has a **Got a question?** card with a **Join the community** button, which opens the Noodle WhatsApp community.
+
+### Signing out
+
+Press **Sign out** in Settings. Choose Google or **Continue as guest** when you return. A remembered guest is restored when its session is still valid; clearing browser data can lose access to guest progress, but does not reset the network trial.
 
 **Your username.** After your first Google sign-in, Settings asks you to choose a username once. It appears on your bowl and on leaderboards. You can change it later in Settings.
-
-> A guest account lives in one browser. If you clear site data without signing in, the guest account and its progress are gone.
 
 ---
 
@@ -93,6 +88,10 @@ Things to know:
 - Games use the first 60,000 characters. Cheat sheets read everything.
 - Slides that are about running the course (agenda, deadlines, contacts, reading lists, "any questions?") are skipped automatically, so a quiz never asks who the lecturer is. The status line under your file says how many were skipped.
 - After you upload, the notes box becomes **Extra notes (optional)**. Use it to add anything the file lacks.
+
+### Adding more later
+
+Open the set and use **Add extra notes & material**. Paste text, or choose one or more `.txt`, `.md`, `.csv`, `.rtf`, `.pdf` or `.pptx` files, then press **Add to study set**. Your original notes stay, and the new text is added after them. A set can hold 60,000 characters in all, and the panel shows how close you are. Activities you already cooked, cheat sheets and lecture rooms stay as they were, so press **Cook a fresh batch** in an activity to include the new material.
 
 ### The other fields
 
@@ -131,8 +130,10 @@ The home page has:
 - A greeting and today's progress toward your daily goal.
 - **Your study sets**, with buttons for **Join a room**, **Fuse topics** and **New study set**.
 - **Lecture rooms** you are in, and saved copies of rooms that have closed.
+- **AI allowance**: how much AI is left. Signed-in accounts see their monthly reset date; guests see their remaining lifetime trial and a Google sign-in prompt. See [section 22](#22-limits-to-know-about).
+- **Invitations** from friends, along the top of every page. See [section 15](#15-friends-and-study-groups).
 - Your bowl, a 7-day flame strip, and a leaderboard of you and your friends (top 10, plus your own place).
-- **Noodle in numbers**, a small panel with how many noodlers there are and an **I'm interested** button if you want to be counted in.
+- **Noodle in numbers**, a small panel showing total noodlers and an **I'm interested** button to express interest.
 
 ### Subjects work like courses
 
@@ -156,10 +157,12 @@ Open a set to reach everything you can do with it. From top to bottom:
 
 - **Title, Delete set, Subject.** **Delete set** removes the set and everything cooked from it. It cannot be undone.
 - **Show notes** opens a viewer for your file, or the text Noodle read.
+- **Add extra notes & material** adds more text or files to the set without replacing your original notes (see [Adding more later](#adding-more-later)).
 - **Teach Noodly** ([section 7](#7-teach-noodly)).
 - **Instant Ramen** and **Noodle Showdown**.
 - **Annotate with classmates** (a lecture room, when cloud sync is on).
-- **Cheat sheet** (one new sheet a day, see [section 12](#12-cheat-sheets-and-anki-export)).
+- **Personal tutor** ([section 7](#personal-tutor)).
+- **Cheat sheet** (see [section 12](#12-cheat-sheets-and-anki-export)).
 - **Annotated slides** (for PDF and PowerPoint sets).
 - **Textbook and lecture** to add or change sources.
 - **Take your cards to Anki**.
@@ -176,7 +179,7 @@ If you leave a game halfway, the XP you already earned is still saved. Where an 
 | Activity | What you do |
 |---|---|
 | **Summary** | Read the key ideas and key terms. **Copy summary** copies it. Finish with **I've read it** for a small XP bonus. |
-| **Flashcards** | Flip a card, then choose **Still learning** or **Got it**. Missed cards come back a few cards later. Use **Hint** or **Memory hook** before flipping. |
+| **Flashcards** | Flip a card, then choose **Still learning** or **Got it**. Missed cards come back a few cards later. Use **Hint** or **Memory hook** before flipping. A heatmap under the deck shows how many cards you reviewed each day over the last year, like Anki's, and is kept in this browser. |
 | **Layered Cards** | Drag the **Pull for help** slider to reveal a hint, then the answer, then a memory hook. The less help you pull, the more XP. |
 | **Noodle Radio** | A 60-second podcast where two hosts, Miso and Shoyu, talk about your notes. Press **Play**, **Pause** or **Resume**, and **Skip line**. The transcript is shown below. |
 | **Untangle Canvas** | Your notes drawn as a tangled mind map. Tap a concept, say what it means, press **Show answer**, then **I knew it** if you did. Known concepts straighten out. **Build the whole map** draws it all at once and **Show all answers** reveals every answer. Your progress is saved. |
@@ -248,6 +251,33 @@ Teaching is one of the best ways to find out what you really know.
 Press **Ctrl+Enter** to send. Noodly only judges against your own notes and never gives you the answer.
 
 ---
+
+### Personal tutor
+
+The **Personal tutor** card on a set page opens your whiteboards. Nothing on them is shared with a room.
+
+**Choosing a board.** The first screen lets you start **New blank board**, or a new board on **Notebook lines**, **Squared paper** or **Dots**. Under **Your whiteboards** are the boards you have saved: **Edit** opens one again, **PNG** and **PDF** export it, and the bin deletes it.
+
+**Saving.** Boards are kept on this device only. Press **Save** (or Ctrl+S) to keep one; the first time you give it a name. When you close a board, or go to any other page, with changes that are not saved, Noodle asks whether to **Save**, **Do not save** or **Keep editing**.
+
+**Working a question.**
+
+1. Choose your **Subject** in the tutor panel. It starts as the set's subject. Maths, Physics, Chemistry, Biology, Computer science and Economics each get their own way of helping (for example, Physics asks what is given and which principle applies before any numbers, and Chemistry balances the equation and goes through moles). **Something else** lets the tutor work out the subject from the question.
+2. Copy a question as a picture (a screenshot or a photo works) and press **Ctrl+V**. The picture lands on the board. Drag its title bar to move it, or the circle on its corner to make it bigger. **Paste from clipboard** and **Choose a picture** do the same if your browser will not paste.
+3. Work it out on the board beside the question. The tools are in a column down the left edge: move, pen, marker, shapes, eraser, then colour, thickness and style, undo, redo and erase. **Ctrl+Z** undoes and **Ctrl+Y** redoes. The wheel zooms, and the space bar or the middle button moves around.
+4. Press **Hint** when you are stuck. The tutor looks at the question and at what you have drawn since you pasted it, and explains the next move without giving the answer. It says where it thinks your working has got to, and points out a line that has a slip. Everything it writes is typeset like LaTeX, with formulas and chemical equations set properly.
+5. Press **Another hint** if you still need more. Each hint is more concrete than the last: first which idea to try, then what to do to the first step, then that step worked through. The hints scroll inside the panel.
+6. Press **Show the answer** (it appears after your first hint) when you do not want any more hints. The tutor works the whole question through, step by step with the reason for each step, and says where your working went wrong if it did.
+
+**The tutor can step in.** While you work, the tutor looks over your board when you pause, and speaks up only if something is really wrong and will send you the wrong way, such as the wrong method or a mistake early on that spoils everything after it. It waits at least 15 seconds after you stop writing. It stays quiet for ambiguous handwriting, unfinished substitutions, crossed-out work, valid alternative methods, and small slips you will probably catch yourself. A proposed interruption must include a readable, completed line and a specific substantive error; a second fresh check must independently identify the same line and error before anything appears. Uncertain, disagreeing or failed checks stay quiet. When it does, a card headed **The tutor stepped in** asks you to **Check this step**, quotes the particular line it read and gives a short nudge without giving the answer. It can still misread handwriting, so compare the quoted line with your actual work. It checks at most once every 15 seconds, only after you have written a few new marks, and no more than 8 times for one question. Use the **Tutor can step in** switch at the top of the tutor panel to turn it off or on. It is remembered on this device, and turning it off cancels a check that is already running. With it off, the tutor only answers when you press **Hint** or **Show the answer**. A **High AI usage** warning beside the toggle explains that automatic checks can use up your AI allowance quickly. Automatic checks use your AI allowance; a possible error triggers a second verification call and therefore costs more than a quiet check. Turn automatic checks off and ask for hints when needed to save usage.
+
+If you ask for a hint while your working is heading the wrong way, the hint says so first and then points you back in the right direction. It still does not give the answer.
+
+**Exporting.** **PNG** saves the board as a picture and **PDF** as a one-page PDF, each cropped to what is on it with the paper pattern, the question and your marks.
+
+If the tutor writes a formula without its dollar signs, Noodle still typesets it, so you do not see raw symbols like `int_0^1` in a hint.
+
+A hint costs a fraction of a penny of your AI allowance and has its own rate limit of 40 every 10 minutes. Paste a new picture to start another question; marks drawn before it are left out of the next hints.
 
 ## 8. Still Tangled
 
@@ -342,7 +372,7 @@ A dense one or two page exam sheet in LaTeX and PDF, made only from your slides 
 
 Admin and blank slides are left out, and the page tells you how many. The sheet only uses what is in your material, so a short course may not fill the page.
 
-> The **Cheat sheet** panel on a set page is open to everyone. You can make one new cheat sheet a day, and it keeps going in the background if you leave the page.
+> The **Cheat sheet** panel on a set page is open to everyone. It keeps going in the background if you leave the page. There is no daily limit. If you have already made a sheet in the last 24 hours, Noodle asks before starting another, and tells you roughly what it will use and how much allowance you have left, since each sheet takes far more than a game does. Making it again from scratch asks the same way.
 
 ### Anki export
 
@@ -366,7 +396,7 @@ A Kahoot-style live quiz built from one of your sets. Open **Showdown** in the n
    - **No central host**: everyone plays on their own device, you included. The leaderboard shows after each question and the next one starts by itself.
 3. Choose how many questions: **10, 15, 20, 25 or 30**, limited by how many the set has.
 4. Pick your avatar if you are playing.
-5. Press **Host this Showdown** (or **Host with no central host**). A **4-letter code** appears. Players type it, or you press **Copy join link**.
+5. Press **Host this Showdown** (or **Host with no central host**). A **4-letter code** appears. Players type it, or you press **Copy join link**. Press **Invite friends** to send the game straight to friends in Noodle (see [section 15](#15-friends-and-study-groups)).
 6. Press **Start with N players** once people have joined. With no central host you need at least two players.
 
 ### Joining
@@ -396,6 +426,8 @@ Annotate a lecture together with classmates, live. Lecture rooms need cloud sync
 2. Share the **6-character join code** or copy the link. Only people you send it to can join.
 3. Classmates press **Join a room** on their home page and type the code, or open your link. The join page shows the lecture title and who is hosting, then asks for the name classmates will see.
 
+You can also press **Invite friends** in the room to send an invitation to anyone on your friends list (see [section 15](#15-friends-and-study-groups)).
+
 Press **New code** if you need to stop the old code working. People already inside stay in. A code can be guessed, so a person gets only 12 wrong tries per 10 minutes.
 
 ### Annotating
@@ -411,7 +443,7 @@ Then type a note (up to 500 characters) and post it. Everyone sees it at once. G
 
 ### Whiteboard
 
-Switch to **Whiteboard** for a shared board with no edges. The wheel zooms where your pointer is, a trackpad or two fingers pan and pinch, and dragging with the hand tool (**Moving around**), the space bar or the middle button moves around.
+Switch to **Whiteboard** for a shared board with no edges. The tools are in a column down the left edge of the board: move, pen, marker, shapes, eraser, then a colour button that opens thickness and style, and undo and erase. The wheel zooms where your pointer is, a trackpad or two fingers pan and pinch, and dragging with the hand tool (**Moving around**), the space bar or the middle button moves around.
 
 ### Peer review
 
@@ -437,7 +469,7 @@ The host can remove a member, reset the code, close the room, and delete any not
 
 ## 15. Friends and study groups
 
-Open **Social** in the navigation. You need to be signed in with Google, because guest names can vanish and names are shown to others. Only people you add, or groups you join, can see you.
+Open **Social** in the navigation. You need to be signed in with Google, because names are shown to others. Only people you add, or groups you join, can see you.
 
 ### Friends
 
@@ -446,6 +478,12 @@ Open **Social** in the navigation. You need to be signed in with Google, because
 3. Friends appear on the leaderboard on your home page, showing name, XP and streak.
 
 A number on the tab shows requests waiting for you.
+
+### Inviting friends to a room or Showdown
+
+In a lecture room, or on a Showdown you are hosting, press **Invite friends**. Your friends list opens with an **Invite** button beside each name. Friends already in the room are left out, and a friend you have invited shows **Invited**.
+
+On their side, the invitation appears as a card at the top of any page: "**Name** invited you to annotate *lecture*" or "to a Showdown". Press **Join** to go straight in, or **Not now** to dismiss it. Noodle checks for new invitations about every 20 seconds while the tab is open. A Showdown invitation lasts 3 hours and a room invitation 14 days, and you can send up to 60 an hour. Friends and invitations need a Google account.
 
 ### Study groups
 
@@ -522,7 +560,7 @@ Some epic and legendary items also ask for an achievement, such as a 14-day stre
 
 ### Wallpapers
 
-50 animated wallpapers to buy, plus the five Japanese scenes and a plain background that are free for everyone.
+60 animated wallpapers to buy, plus the five Japanese scenes and a plain background that are free for everyone.
 
 - **Preview** a wallpaper behind the page before buying.
 - Press **Use it** to set it. A random button picks a free one for you.
@@ -534,12 +572,16 @@ Some epic and legendary items also ask for an achievement, such as a 14-day stre
 
 ### Themes
 
-23 themes that restyle the whole app: the buttons, cards, top bar and phone tab bar, the colours, the corners and the typeface. Some change colour only (Matcha, Blush, Lavender, Coral reef). Others change the shape too: Cloud and Bubble are soft and round, Terminal and Blueprint are monospace and square, Arcade is chunky, Old library is all serif, Neon nights and Ember glow, Frosted glass, Aurora and Holographic have see-through cards and a coloured top bar, and Graphite keeps everything grey except right and wrong answers. **High contrast** is black and white with heavy outlines. Classic Noodle, the look Noodle has always had, is free.
+33 themes that restyle the whole app: the buttons, cards, top bar and phone tab bar, the colours, the corners and the typeface. Some change colour only (Matcha, Blush, Lavender, Coral reef). Others change the shape too: Cloud and Bubble are soft and round, Terminal and Blueprint are monospace and square, Arcade is chunky, Old library is all serif, Neon nights and Ember glow, Frosted glass, Aurora and Holographic have see-through cards and a coloured top bar, and Graphite keeps everything grey except right and wrong answers. **High contrast** is black and white with heavy outlines. Classic Noodle, the look Noodle has always had, is free.
 
 - Every theme has a night and a day version, so the **Light or dark** switch in the header and Settings still works.
 - Each card shows a live sample. **Try it on the app** applies a theme to everything until you press **Stop trying** or leave the page. Nothing is kept until you buy or use it.
 - Buy a theme, then press **Use it**. A theme you own is used on this device only, like wallpapers and sounds.
 - The Noodle wordmark keeps its own typeface in every theme.
+
+### Matching wallpaper and theme pairs
+
+Ten of the wallpapers come with a theme of the same name and colours: Orbital Garden, Clockwork Observatory, Crystal Cavern, Paper Sea, Dream Railway, Bamboo Moon, Floating Islands, Prism Rain, Living Reef and Celestial Library. They are bought separately, one on the Wallpapers page and one on the Themes page, and each sells at the same price. On either page, the card for one of these shows **Preview matching pair**, which tries the wallpaper and theme together until you press **Stop pair preview**. Once you own both, **Use matching pair** sets them in one go.
 
 ### My bowl
 
@@ -573,6 +615,11 @@ Open **Settings**. Everything saves automatically.
 | **Sound effects** | On or off. A mute shortcut is in the header too. |
 | **Animations** | Use device setting, on, or off. |
 | **Dyslexia-friendly reading** | Switches the whole app to the OpenDyslexic typeface with wider letter and word spacing, taller lines and no italics. The font downloads the first time you turn it on. |
+| **Text size** | Normal, Large (125%) or Extra large (150%). The whole app scales, including buttons and the top bar. |
+| **Text spacing** | **Wide** adds space between letters, words and lines. Dyslexia-friendly reading has its own spacing and takes over if both are on. |
+| **Keyboard focus outline** | **Thick** draws a heavy outline around whatever you have reached with Tab, in the text colour so it shows in every theme. |
+| **Button and field size** | **Large** makes buttons and fields at least 44 pixels tall, an easier target on a phone or with a tremor. |
+| **Solid backgrounds** | Draws cards and bars solid, without the see-through glass some themes use, so a wallpaper never shows behind words. |
 | **Wallpaper** | Pick from the wallpapers you own. **See the whole wallpaper** hides the page so you can look at it. **Buy more wallpapers with XP** goes to the shop. |
 | **Account** | Save progress with Google, sign in, sign out. |
 | **Redeem a code** | At the very bottom of the page. Each code gives you 5 random free avatar items and 5 random wallpapers, and tells you if you already own everything it could give. You need to be signed in with Google. |
@@ -587,6 +634,8 @@ Noodle follows your device's reduced-motion setting by default. On some Windows 
 
 ### Screen readers and keyboards
 
+- **Skip to main content** is the first thing Tab reaches on every page, so you can jump past the navigation.
+- When you go to another page, the browser tab title changes to the page's heading and a screen reader announces it.
 - The Untangle mind map has a text outline in reading order and announces progress.
 - Ink on slides and whiteboards is described in words: what was drawn, colours, who by and roughly where.
 - Most games work from the keyboard. See the next section.
@@ -640,40 +689,42 @@ Noodle follows your device's reduced-motion setting by default. On some Windows 
 | Teach Noodly | 5 explanations |
 | Room notes | 500 characters |
 | Study groups | Run 5, join 10, 100 members each |
-| AI requests | About 20 per 10 minutes, with more for Teach Noodly (40) and cheat sheets (70). If you hit it, wait a few minutes. |
-| AI allowance | £10 of AI per account each month, starting again on the 1st, and at most 300 AI requests a day |
-| Cheat sheets | One new cheat sheet a day |
+| AI requests | About 20 per 10 minutes, with more for Teach Noodly (40), personal tutor hints (40) and cheat sheets (70). If you hit it, wait a few minutes. |
+| AI allowance | Guests: 50p total, with no monthly reset. Signed-in accounts: £5 each month, starting again on the 1st. At most 300 AI requests a day. |
+| Cheat sheets | No limit, but another one within 24 hours asks first and uses your allowance |
 
 ### What each feature costs
 
-Everything that uses the AI comes out of your monthly allowance of £10. This table shows what each feature costs, measured by running every one on a real 57 slide lecture deck (about 27,600 characters of text: "REST APIs, Exception Handling, Logging, Configuration, Actuator and Docker"). Costs are in pence at OpenAI's list prices, and the real bill can be a little lower because repeated reading of the same notes is billed at a cheaper rate.
+Everything that uses AI comes out of the 50p lifetime guest trial or the £5 monthly signed-in allowance. Guest trials are pooled server-side by network, so incognito, clearing cookies or making another guest on the same network does not create another allowance. People on shared Wi-Fi share this guest trial; signing in gives each person their own allowance. A changed network or VPN cannot reliably be identified as the same anonymous person. The home page shows how much you have left. This table shows what each feature costs, measured by running every one on a real 57 slide lecture deck (about 27,600 characters of text: "REST APIs, Exception Handling, Logging, Configuration, Actuator and Docker"). Costs are in pence at OpenAI's list prices, and what comes off your allowance can be a little lower, because when the AI re-reads the start of the same notes (for example cooking several games from one set), that repeated part is billed at a cheaper rate and Noodle counts it that way.
 
-| Feature | AI requests | Tokens in / out | Cost | Uses in £10 |
+| Feature | AI requests | Tokens in / out | Cost | Uses in £5 |
 |---|---|---|---|---|
-| Flashcards (10 cards) | 1 | 3,543 / 632 | 0.11p | about 9,000 |
-| Layered Cards (8 cards) | 1 | 3,556 / 836 | 0.13p | about 7,700 |
-| Fill in the Gaps | 1 | 3,550 / 452 | 0.09p | about 10,600 |
-| Match the Strands (6 pairs) | 1 | 3,519 / 107 | 0.06p | about 16,100 |
-| Timed Quiz (10 questions) | 1 | 3,578 / 1,025 | 0.15p | about 6,800 |
-| Speed Slurp (20 questions) | 1 | 3,571 / 1,043 | 0.15p | about 6,700 |
-| Target Practice (20 questions) | 1 | 3,610 / 1,110 | 0.16p | about 6,400 |
-| Instant Ramen (20 questions) | 1 | 3,589 / 1,166 | 0.16p | about 6,200 |
-| Error Check | 1 | 3,589 / 471 | 0.10p | about 10,300 |
-| Summary | 1 | 3,543 / 847 | 0.13p | about 7,600 |
-| Untangle Canvas | 1 | 3,588 / 480 | 0.10p | about 10,200 |
-| Noodle Radio | 1 | 3,605 / 346 | 0.09p | about 11,800 |
-| Jeopardy | 1 | 3,740 / 328 | 0.09p | about 11,600 |
-| Fusion (10 questions) | 1 | 3,771 / 2,145 | 0.25p | about 3,900 |
-| Still Tangled (one metaphor set) | 1 | 323 / 312 | 0.03p | about 29,000 |
-| Teach Noodly (each reply) | 1 | 5,657 / 90 | 0.46p | about 2,200 replies |
-| Annotated slides (54 of the 57 slides) | 5 | 8,577 / 5,518 | 0.64p | about 1,560 decks |
-| Cheat sheet (the whole deck) | 2 | 7,203 / 5,797 | 7.8p | about 128 sheets, one a day |
+| Flashcards (10 cards) | 1 | 3,543 / 632 | 0.11p | about 4,500 |
+| Layered Cards (8 cards) | 1 | 3,556 / 836 | 0.13p | about 3,800 |
+| Fill in the Gaps | 1 | 3,550 / 452 | 0.09p | about 5,300 |
+| Match the Strands (6 pairs) | 1 | 3,519 / 107 | 0.06p | about 8,100 |
+| Timed Quiz (10 questions) | 1 | 3,578 / 1,025 | 0.15p | about 3,400 |
+| Speed Slurp (20 questions) | 1 | 3,571 / 1,043 | 0.15p | about 3,400 |
+| Target Practice (20 questions) | 1 | 3,610 / 1,110 | 0.16p | about 3,200 |
+| Instant Ramen (20 questions) | 1 | 3,589 / 1,166 | 0.16p | about 3,100 |
+| Error Check | 1 | 3,589 / 471 | 0.10p | about 5,200 |
+| Summary | 1 | 3,543 / 847 | 0.13p | about 3,800 |
+| Untangle Canvas | 1 | 3,588 / 480 | 0.10p | about 5,100 |
+| Noodle Radio | 1 | 3,605 / 346 | 0.09p | about 5,900 |
+| Jeopardy | 1 | 3,740 / 328 | 0.09p | about 5,800 |
+| Fusion (10 questions) | 1 | 3,771 / 2,145 | 0.25p | about 2,000 |
+| Still Tangled (one metaphor set) | 1 | 323 / 312 | 0.03p | about 14,700 |
+| Teach Noodly (each reply) | 1 | 5,657 / 90 | 0.46p | about 1,100 replies |
+| Annotated slides (54 of the 57 slides) | 5 | 8,577 / 5,518 | 0.64p | about 780 decks |
+| Cheat sheet (the whole deck) | 2 | 7,203 / 5,797 | 7.8p | about 64 sheets |
 
 - **The 14 games and activities average about 0.13p each**, so one study session of several games costs a fraction of a penny.
 - **Annotated slides** leaves out obvious admin slides (3 of the 57 here) before any AI is used, and sends the rest 12 at a time.
 - **Teach Noodly** costs more per reply because the AI reads your notes again every time, but a whole 5 reply session is still about 2.3p.
-- **Cheat sheets** use a stronger model so they are accurate, which is why they cost the most. You can make one a day.
+- **Cheat sheets** use a stronger model so they are accurate, which is why they cost the most. If you make another within 24 hours, Noodle tells you roughly what it will cost before it starts.
 - A bigger deck costs more in proportion for annotated slides and cheat sheets (a 1000 slide cheat sheet is roughly £1.40), but games always read at most 16,000 characters, so they cost about the same for any course.
+- Guests who use their 50p trial must sign in with Google for the default free allowance. The guest trial never resets, including after an upgrade or account deletion. If allowance checking is unavailable, new AI requests pause until it recovers.
+- Guests on one network generate one request at a time. If another guest request is running, wait and retry. Usage is recorded when an AI response finishes, so the last request can take the total slightly over the allowance before further requests stop.
 - If you reach your monthly allowance, new AI requests are switched off until the 1st. What you already made still works.
 
 ---
@@ -690,7 +741,7 @@ Scanned PDFs have images of text, not text. Use a PDF with selectable text or pa
 Check that it was added (the set page's **Textbook and lecture** section shows its name). References only appear when at least two keywords match, so a loosely related item may have none. If you set **Pages to use**, only those pages are searched.
 
 **My progress disappeared.**
-Guest progress lives in one browser. Clearing site data removes it. Sign in with Google from Settings to keep it safe.
+Google-linked progress is saved to your account. Guest progress depends on keeping access to the guest session in this browser. Without cloud sync it lives in one browser, and clearing site data removes it.
 
 **Lecture rooms or Showdown only work in my own tabs.**
 Cloud sync is off, so they can only connect tabs on this device.
@@ -711,7 +762,7 @@ It may have been made with **Delete when I leave**. Those are removed after the 
 Open it and press **Delete set**. This also deletes everything cooked from it and cannot be undone.
 
 **There is no cheat sheet button.**
-Everyone can make one new cheat sheet a day. Once one starts it carries on in the background while you use the rest of Noodle (keep the tab open), and the panel on the set page shows how far it has got and opens it when it is ready. If you close the tab, what was read so far is saved, and **Carry on** picks up from there without using another day's sheet.
+Everyone can make cheat sheets. Once one starts it carries on in the background while you use the rest of Noodle (keep the tab open), and the panel on the set page shows how far it has got and opens it when it is ready. If you close the tab, what was read so far is saved, and **Carry on** picks up from there without counting as another sheet.
 
 ---
 
@@ -730,3 +781,4 @@ Everyone can make one new cheat sheet a day. Once one starts it carries on in th
 | **Study set** | Your notes plus everything cooked from them. |
 | **Subject** | The course a set belongs to, used for grouping and Fusion. |
 | **Tokyo Night** | The default dark theme. |
+
